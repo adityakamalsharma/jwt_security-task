@@ -1,1 +1,6 @@
+# JWT attack PoC + Secure API
+pyjwt>=2.8.0      # main JWT library (sign/verify tokens)
+cryptography>=42.0.0  # crypto backend required by PyJWT
 
+# For wordlists / brute-force helpers (optional, but useful)
+requests>=2.32.0     # if you expand the PoC to attack an API
